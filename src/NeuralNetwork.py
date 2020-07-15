@@ -2,6 +2,7 @@ import numpy as np
 from src.functions import sigmoid, sigmoid_derivative
 
 class NeuralNetwork:
+
     def __init__(self, x, y):
         """
         Initialize params
